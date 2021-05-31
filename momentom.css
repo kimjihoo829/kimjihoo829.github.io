@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'KoreanFrenchTypewriter';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/KoreanFrenchTypewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}/*한불 정부표준 타자 기체*/
+
+@font-face {
+    font-family: 'ELAND_Choice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} /*이랜드 초이스체M*/
+
+@font-face {
+    font-family: 'NIXGONM-Vb';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} /*닉스곤 폰트M*/
+
+@font-face {
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}/*한글누리체*/
+
+@font-face {
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} /*티웨이*/
+
+h1 {
+    text-align: center;
+    font-size: 150px;
+    color: #f6b93b;
+    text-shadow: 5px 5px 5px gray;
+    font-family: 'ELAND_Choice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.js-form {
+    text-align: center;
+}
+
+.js-form input {
+    border: none;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    background: transparent;
+    outline: none;
+    text-shadow: 3px 3px 3px gray;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.js-form input:hover {
+    font-size: 45px;
+    transition: all 0.5s;
+}
+
+.js-form input::placeholder {
+    color: #48dbfb;
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 3px 3px 3px black;
+    background-color: #ff9ff3;
+    border-radius: 10px;
+    opacity: 20px;
+}
+
+.js-toDoForm {
+    text-align: center;
+}
+
+.js-toDoForm input {
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    background: transparent;
+    outline: none;
+    text-shadow: 3px 3px 3px gray;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.js-toDoForm input::placeholder {
+    color: #222f3e;
+}
+
+h4 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color: #0c2461;
+    text-shadow: 10px 10px 10px gray;
+    transition: all 0.5s;
+}
+
+h4:hover {
+    color:chocolate;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 70px;
+}
+
+li {
+    text-align: center;
+    font-size: 20px;
+    color: #222f3e;
+    text-shadow: 3px 3px 3px gray;
+    list-style: none;
+    transform: translate(0%, 20%);
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+li:hover {    
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.form,
+.grettings {
+    display: none;
+}
+
+.showing{
+    display: block;
+}
+
+.bg_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 80%;
+    background-attachment: fixed;
+}
+
+.wep {
+    color: black;
+    font-size: 20px;
+    font-family: 'KoreanFrenchTypewriter';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/KoreanFrenchTypewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.radio {
+    outline: none;
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 150px;
+    transition: all 0.5s;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.radio:hover {
+    background-color: red;
+    transition: all 0.5s;
+}
+
+.ko {
+    text-align: right;
+    transform: translate(0%, -110%);
+    font-size: 20px;
+    font-family: 'KoreanFrenchTypewriter';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/KoreanFrenchTypewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media(max-width: 800px){
+    h4 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    
+    .wep {
+        font-size: 7px;
+    }
+    .ko {
+        font-size: 7px;
+    }
+    li {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 300px){
+    h1 {
+        font-size: 80px;
+    }
+}
+
